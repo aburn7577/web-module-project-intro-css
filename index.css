@@ -24,10 +24,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
+} */
 body {
 	line-height: 1;
 }
@@ -47,3 +47,114 @@ table {
 	border-spacing: 0;
 }
 /* Reset end */
+*{
+    font-family: 'Roboto Mono';
+    font-size: 10px;
+    letter-spacing: 0.12rem;
+    position: relative;
+}
+header section{
+    display:inline-block;
+    width: 65%;
+    
+}
+h1{
+    font-family: 'Chelsea Market';
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+h2{
+    text-align: center;
+    width:20rem;
+    padding-left: 4rem;
+}
+header img{
+    width: 25%;
+    border-radius: 100em;
+    vertical-align: middle;
+    display:inline-block;
+    padding: .5rem;
+    padding-top: .2rem;
+    margin-left: 2rem;
+
+}
+header{
+    display: inline-block;
+    
+}
+button{
+    border:none;
+    color:rgb(248, 238, 238);
+    text-align: center;
+    display:inline-block;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    padding-bottom: .2rem;
+    border-radius: 0.5rem ;
+    margin: 2.2rem;
+    font-size: small;
+    margin-left: 1rem;
+}
+
+article{
+    background-color: #DDB9A3;
+    color: rgb(248, 238, 238);
+    text-align: center;
+    margin-left: 4%;
+    padding:2%;
+    font-size: small;
+    letter-spacing: .5rem;
+    margin-top: 2rem;
+    
+}
+.par1{
+    margin-bottom: 1rem;
+}
+section.lower{
+    text-align: center;
+    padding-bottom: 2.5rem;
+    
+
+}
+p.fire{
+    width: 15rem;
+    margin: auto;
+    font-size: x-small;
+}
+p.bus{
+    width: 15rem;
+    margin: auto;
+    font-size: x-small;
+}
+
+section img{
+    width: 10%;
+    height: 10%;
+    padding-top: 2rem; 
+}
+#image-container{
+    background:url('assets/footer_img.jpg');
+    background-size: cover;
+    height: 15.4rem;
+}
+
+.bottom-nav{
+    position: absolute; 
+    background-color: #F9E7DC;
+    height: 6rem;
+    width:100%;
+    bottom:0;
+    
+}
+button.plan {
+    background-color: #FF764E;
+    margin-left: 6rem;
+    
+}
+button.learn {
+    background-color: #5ED3EB;
+}
+button.get {
+    background-color: #FFCD69;
+}
